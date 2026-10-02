@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.2](https://github.com/a2aproject/a2a-python/compare/v1.2.1...v1.2.2) (2026-10-02)
+
+
+### Features
+
+* allow configuring SSE shutdown grace periods ([#1222](https://github.com/a2aproject/a2a-python/issues/1222)) ([6ff0a82](https://github.com/a2aproject/a2a-python/commit/6ff0a826b49a1814d05b6bb11e546d0fa3407c4c))
+
+
+### Bug Fixes
+
+* **client:** handle REST error bodies that are not a google.rpc.Status ([#1300](https://github.com/a2aproject/a2a-python/issues/1300)) ([ee61dc1](https://github.com/a2aproject/a2a-python/commit/ee61dc1328eed71d4fde53d26540bcdf3ab6ef91))
+* **compat:** keep timestamp and three other fields in v0.3 gRPC conversion ([#1277](https://github.com/a2aproject/a2a-python/issues/1277)) ([fad0482](https://github.com/a2aproject/a2a-python/commit/fad04821ca9ca70f5378305c2f3ce9225d323e72)), closes [#1276](https://github.com/a2aproject/a2a-python/issues/1276)
+* **server:** return the stored id when creating a push notification config ([#1236](https://github.com/a2aproject/a2a-python/issues/1236)) ([dac7d9d](https://github.com/a2aproject/a2a-python/commit/dac7d9d4d01a56b1c9aad83b069326fbf8f114e8)), closes [#1237](https://github.com/a2aproject/a2a-python/issues/1237)
+* **server:** stop printing a traceback to stderr for malformed JSON-RPC bodies ([#1301](https://github.com/a2aproject/a2a-python/issues/1301)) ([5a1a004](https://github.com/a2aproject/a2a-python/commit/5a1a004ecd9e3051223923f7e2db8c15401a20f7))
+
 ## [1.2.1](https://github.com/a2aproject/a2a-python/compare/v1.2.0...v1.2.1) (2026-09-30)
 
 
